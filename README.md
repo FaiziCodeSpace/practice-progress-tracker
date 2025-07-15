@@ -33,7 +33,9 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - Styling: CSS, CSS Modules, Tailwind (basic)
 - React Router (in progress)
 - Navbar logic, route-based visibility
-- Form handling, validation concepts
+- Form handling and validation
+- API Integration with loading state using `fetch`
+- JSON Server as mock backend
 
 ---
 
@@ -68,23 +70,30 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 This repo contains all day-to-day React practice. I build everything here first, then move it into dedicated, topic-based repositories after polishing.
 
 📌 Organized into folders like:
-- `file-1` (props & input basics)
-- `file-2` (state & effect logic)
-- `file-3` (styling practice)
-- `file-4` (advanced hooks)
-- `file-5` (arrays, objects, fragments)
-- `contextAPI`, `CustomHooks`, `router` folders
+- `file-1` → Props, input handling, form setup
+- `file-2` → State management, toggle logic, event flow
+- `file-3` → Styling: Internal, External, CSS Modules
+- `file-4` → Hooks: useState, useEffect, useRef, useId, useFormState, useTransition, custom hooks
+- `file-5` → Array & Object rendering, fragments, derived state
+- `contextAPI/` → Global state with context
+- `CustomHooks/` → Reusable logic & showcases
+- `router/` → Routing practice (React Router DOM)
+- `JSONMockAPI/` → JSON Server API integration with loading state
+
+🆕 **Latest Additions:**
+- ✅ Integrated Dummy API using `fetch()` for user data
+- ✅ Connected JSON Server for local API mocking
+- ✅ Implemented loading spinner/message using state before API completes
+- ✅ Clean, reusable folder structure for each type of component logic
 
 ---
 
 ## 💡 Why This Tracker Exists
 
 This tracker isn't a portfolio — it's the **proof of practice**. It shows:
-- How I learn (by doing)
-- What I’ve completed (with links)
+- How I learn (by building real code)
+- What I’ve completed (with direct repo links)
 - My discipline in mastering full-stack development
-
----
 
 > ✨ *"Build small. Learn deep. Document smart."* – Faizan
 
