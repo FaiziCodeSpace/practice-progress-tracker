@@ -36,6 +36,7 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - Form handling and validation
 - API Integration with loading state using `fetch`
 - JSON Server as mock backend
+- 🆕 Conditional loading GIF for API feedback (via feature branch)
 
 ---
 
@@ -75,16 +76,20 @@ This repo contains all day-to-day React practice. I build everything here first,
 - `file-3` → Styling: Internal, External, CSS Modules
 - `file-4` → Hooks: useState, useEffect, useRef, useId, useFormState, useTransition, custom hooks
 - `file-5` → Array & Object rendering, fragments, derived state
+- `file-6` → React Router and navbar logic
 - `contextAPI/` → Global state with context
 - `CustomHooks/` → Reusable logic & showcases
-- `router/` → Routing practice (React Router DOM)
-- `JSONMockAPI/` → JSON Server API integration with loading state
+- `router/` → Layout-based routing & conditional navbar
+- `file-7(API)/` → Real and Mock API Fetching + loading state
+  - 🆕 Loading GIF added using `useState` and `useEffect`
+  - ➕ Implemented through a feature branch (`feature-loading-gif`)
 
 🆕 **Latest Additions:**
 - ✅ Integrated Dummy API using `fetch()` for user data
 - ✅ Connected JSON Server for local API mocking
 - ✅ Implemented loading spinner/message using state before API completes
-- ✅ Clean, reusable folder structure for each type of component logic
+- 🆕 Added GIF loader to simulate real-world loading experience
+- ✅ Feature completed via separate branch + PR workflow
 
 ---
 
