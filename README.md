@@ -31,12 +31,14 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - Conditional Rendering & Event Handling
 - Array/Object mapping and dynamic rendering
 - Styling: CSS, CSS Modules, Tailwind (basic)
-- React Router (in progress)
-- Navbar logic, route-based visibility
+- React Router with conditional layout rendering
+- Navbar logic, visibility handling
 - Form handling and validation
 - API Integration with loading state using `fetch`
 - JSON Server as mock backend
-- 🆕 Conditional loading GIF for API feedback (via feature branch)
+- Loading feedback using conditional GIFs
+- POST API handling with dynamic URL selection
+- UI navigation between fetch and post views
 
 ---
 
@@ -80,16 +82,15 @@ This repo contains all day-to-day React practice. I build everything here first,
 - `contextAPI/` → Global state with context
 - `CustomHooks/` → Reusable logic & showcases
 - `router/` → Layout-based routing & conditional navbar
-- `file-7(API)/` → Real and Mock API Fetching + loading state
-  - 🆕 Loading GIF added using `useState` and `useEffect`
-  - ➕ Implemented through a feature branch (`feature-loading-gif`)
+- `file-7(API)/` → Real and Mock API Handling
 
-🆕 **Latest Additions:**
-- ✅ Integrated Dummy API using `fetch()` for user data
-- ✅ Connected JSON Server for local API mocking
-- ✅ Implemented loading spinner/message using state before API completes
-- 🆕 Added GIF loader to simulate real-world loading experience
-- ✅ Feature completed via separate branch + PR workflow
+### API Feature Highlights:
+- GET request from `https://dummyjson.com/users`
+- Local JSON Server mock API (`http://localhost:3000/users`)
+- Loading spinner with conditional render
+- POST request using `fetch()` and form data
+- URL selector to switch between two backend endpoints
+- Navigator logic to toggle between View List and POST form
 
 ---
 
