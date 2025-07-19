@@ -39,6 +39,9 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - Loading feedback using conditional GIFs
 - POST API handling with dynamic URL selection
 - UI navigation between fetch and post views
+- 🆕 Delete functionality to remove users from the UI
+- 🆕 Edit button navigation to redirect to edit form
+- 🆕 Functional edit form with dynamic routing and PUT request
 
 ---
 
@@ -73,33 +76,36 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 This repo contains all day-to-day React practice. I build everything here first, then move it into dedicated, topic-based repositories after polishing.
 
 📌 Organized into folders like:
-- `file-1` → Props, input handling, form setup
-- `file-2` → State management, toggle logic, event flow
-- `file-3` → Styling: Internal, External, CSS Modules
-- `file-4` → Hooks: useState, useEffect, useRef, useId, useFormState, useTransition, custom hooks
-- `file-5` → Array & Object rendering, fragments, derived state
-- `file-6` → React Router and navbar logic
-- `contextAPI/` → Global state with context
-- `CustomHooks/` → Reusable logic & showcases
-- `router/` → Layout-based routing & conditional navbar
-- `file-7(API)/` → Real and Mock API Handling
+- `file-1/` → Props, input handling, form setup  
+- `file-2/` → State management, toggle logic, event flow  
+- `file-3/` → Styling: Internal, External, CSS Modules  
+- `file-4/` → Hooks: useState, useEffect, useRef, useId, useFormState, useTransition, custom hooks  
+- `file-5/` → Array & Object rendering, fragments, derived state  
+- `file-6/` → React Router and navbar logic  
+- `file-7(API)/` → Real and Mock API Handling  
+- `contextAPI/` → Global state with context  
+- `CustomHooks/` → Reusable logic & showcases  
+- `router/` → Layout-based routing & conditional navbar  
 
-### API Feature Highlights:
-- GET request from `https://dummyjson.com/users`
-- Local JSON Server mock API (`http://localhost:3000/users`)
-- Loading spinner with conditional render
-- POST request using `fetch()` and form data
-- URL selector to switch between two backend endpoints
-- Navigator logic to toggle between View List and POST form
+### 🔌 API Feature Highlights:
+- GET request from `https://dummyjson.com/users`  
+- Local JSON Server mock API (`http://localhost:3000/users`)  
+- Loading spinner with conditional render  
+- POST request using `fetch()` and form data  
+- URL selector to switch between two backend endpoints  
+- Navigator logic to toggle between View List and POST form  
+- 🆕 Delete function to remove user from local state  
+- 🆕 Edit button redirects to editing screen  
+- 🆕 PUT request updates user data with dynamic ID routing  
 
 ---
 
 ## 💡 Why This Tracker Exists
 
-This tracker isn't a portfolio — it's the **proof of practice**. It shows:
-- How I learn (by building real code)
-- What I’ve completed (with direct repo links)
-- My discipline in mastering full-stack development
+This tracker isn't a portfolio — it's the **proof of practice**. It shows:  
+- How I learn (by building real code)  
+- What I’ve completed (with direct repo links)  
+- My discipline in mastering full-stack development  
 
 > ✨ *"Build small. Learn deep. Document smart."* – Faizan
 
