@@ -34,6 +34,7 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - React Router with conditional layout rendering
 - Navbar logic, visibility handling
 - Form handling and validation
+- Basic field validation using regex and dynamic error messages
 - API Integration with loading state using `fetch`
 - JSON Server as mock backend
 - Loading feedback using conditional GIFs
@@ -42,6 +43,8 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - 🆕 Delete functionality to remove users from the UI
 - 🆕 Edit button navigation to redirect to edit form
 - 🆕 Functional edit form with dynamic routing and PUT request
+- 🆕 Basic form validation with controlled inputs
+- 🆕 UI enhancement for form validation component
 
 ---
 
@@ -97,6 +100,8 @@ This repo contains all day-to-day React practice. I build everything here first,
 - 🆕 Delete function to remove user from local state  
 - 🆕 Edit button redirects to editing screen  
 - 🆕 PUT request updates user data with dynamic ID routing  
+- 🆕 Form validation using `useState` and regex  
+- 🆕 UI layout enhancements for validation component
 
 ---
 
