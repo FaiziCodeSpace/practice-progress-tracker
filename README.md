@@ -35,6 +35,8 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - Navbar logic, visibility handling
 - Form handling and validation
 - Basic field validation using regex and dynamic error messages
+- Form validation using `useActionState` for progressive input control ✅
+- Form logic using `useReducer` hook for unified state management ✅
 - API Integration with loading state using `fetch`
 - JSON Server as mock backend
 - Loading feedback using conditional GIFs
@@ -101,7 +103,8 @@ This repo contains all day-to-day React practice. I build everything here first,
 - 🆕 Edit button redirects to editing screen  
 - 🆕 PUT request updates user data with dynamic ID routing  
 - 🆕 Form validation using `useState` and regex  
-- 🆕 UI layout enhancements for validation component
+- 🆕 Form validation using `useActionState` for progressive form logic  
+- 🆕 Full form state management using `useReducer` hook
 
 ---
 
