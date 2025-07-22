@@ -24,29 +24,30 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - [`verify-email`](https://github.com/FaiziCodeSpace/verify-email)
 
 **Key Concepts Covered:**
-- JSX and Component Structure
-- Props, Dynamic Props, and Prop Drilling
-- `useState`, `useEffect`, `useRef`, `useTransition`, `useId`, `forwardRef`
-- `useFormState`, `useActionState`, and Custom Hooks
-- Conditional Rendering & Event Handling
-- Array/Object mapping and dynamic rendering
-- Styling: CSS, CSS Modules, Tailwind (basic)
-- React Router with conditional layout rendering
-- Navbar logic, visibility handling
-- Form handling and validation
-- Basic field validation using regex and dynamic error messages
-- Form validation using `useActionState` for progressive input control ✅
-- Form logic using `useReducer` hook for unified state management ✅
-- API Integration with loading state using `fetch`
-- JSON Server as mock backend
-- Loading feedback using conditional GIFs
-- POST API handling with dynamic URL selection
-- UI navigation between fetch and post views
-- 🆕 Delete functionality to remove users from the UI
-- 🆕 Edit button navigation to redirect to edit form
-- 🆕 Functional edit form with dynamic routing and PUT request
-- 🆕 Basic form validation with controlled inputs
-- 🆕 UI enhancement for form validation component
+- JSX and Component Structure  
+- Props, Dynamic Props, and Prop Drilling  
+- `useState`, `useEffect`, `useRef`, `useTransition`, `useId`, `forwardRef`  
+- `useFormState`, `useActionState`, `useReducer`, and Custom Hooks  
+- Conditional Rendering & Event Handling  
+- Array/Object mapping and dynamic rendering  
+- Styling: CSS, CSS Modules, Tailwind (basic)  
+- React Router with conditional layout rendering  
+- Navbar logic, visibility handling  
+- Form handling and validation  
+- Field validation using regex and dynamic error messages  
+- Form validation using `useActionState` for progressive input control  
+- Form logic using `useReducer` hook for unified state management  
+- Lazy loading components using `React.lazy` and `Suspense` ✅  
+- Rendering data using experimental React `use()` API ✅  
+- API Integration with loading state using `fetch`  
+- JSON Server as mock backend  
+- Loading feedback using conditional GIFs  
+- POST API handling with dynamic URL selection  
+- UI navigation between fetch and post views  
+- Delete functionality to remove users from the UI  
+- Edit button navigation to redirect to edit form  
+- Functional edit form with dynamic routing and PUT request  
+- UI enhancement for form validation component  
 
 ---
 
@@ -62,15 +63,15 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - [`to-do-app-prototype`](https://github.com/FaiziCodeSpace/to-do-app-prototype)
 
 **Key Concepts Covered:**
-- Node.js setup and file structure
-- Express.js routing (GET, POST, DELETE, PUT)
-- RESTful API patterns
-- EJS integration for server-side views
-- Form submission & input handling
-- Environment variables and `.env` setup
-- File uploads with Multer
-- API Testing with Postman
-- Static file serving and modular route organization
+- Node.js setup and file structure  
+- Express.js routing (GET, POST, DELETE, PUT)  
+- RESTful API patterns  
+- EJS integration for server-side views  
+- Form submission & input handling  
+- Environment variables and `.env` setup  
+- File uploads with Multer  
+- API Testing with Postman  
+- Static file serving and modular route organization  
 
 ---
 
@@ -84,7 +85,7 @@ This repo contains all day-to-day React practice. I build everything here first,
 - `file-1/` → Props, input handling, form setup  
 - `file-2/` → State management, toggle logic, event flow  
 - `file-3/` → Styling: Internal, External, CSS Modules  
-- `file-4/` → Hooks: useState, useEffect, useRef, useId, useFormState, useTransition, custom hooks  
+- `file-4/` → Hooks: useState, useEffect, useRef, useId, useFormState, useActionState, useReducer, useTransition  
 - `file-5/` → Array & Object rendering, fragments, derived state  
 - `file-6/` → React Router and navbar logic  
 - `file-7(API)/` → Real and Mock API Handling  
@@ -99,12 +100,14 @@ This repo contains all day-to-day React practice. I build everything here first,
 - POST request using `fetch()` and form data  
 - URL selector to switch between two backend endpoints  
 - Navigator logic to toggle between View List and POST form  
-- 🆕 Delete function to remove user from local state  
-- 🆕 Edit button redirects to editing screen  
-- 🆕 PUT request updates user data with dynamic ID routing  
-- 🆕 Form validation using `useState` and regex  
-- 🆕 Form validation using `useActionState` for progressive form logic  
-- 🆕 Full form state management using `useReducer` hook
+- Delete function to remove user from local state  
+- Edit button redirects to editing screen  
+- PUT request updates user data with dynamic ID routing  
+- Form validation using `useState` and regex  
+- Form validation using `useActionState` for progressive form logic  
+- Full form state management using `useReducer` hook  
+- Lazy component rendering using `React.lazy()` and `Suspense`  
+- Experimental API data handling using React’s `use()` hook  
 
 ---
 
