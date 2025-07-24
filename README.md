@@ -1,8 +1,8 @@
 # 📘 Practice Progress Tracker
 
-This repository is a detailed journal of my MERN Stack learning journey. It tracks every concept I’ve practiced — from front-end development in React.js to back-end logic using Node.js and Express.js. All topics are backed by live, coded repositories built by me.
+This repository documents my full-stack learning journey with a primary focus on the MERN stack. Each section links to real, working repositories where I've practiced specific concepts.
 
-Each repo listed below focuses on one or more core concepts. This tracker helps clients, recruiters, or collaborators quickly understand the depth and direction of my skillset.
+Whether you're a client, collaborator, or recruiter, this tracker offers a quick view into the topics I’ve explored and the depth of hands-on implementation.
 
 ---
 
@@ -24,30 +24,29 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - [`verify-email`](https://github.com/FaiziCodeSpace/verify-email)
 
 **Key Concepts Covered:**
-- JSX and Component Structure  
-- Props, Dynamic Props, and Prop Drilling  
-- `useState`, `useEffect`, `useRef`, `useTransition`, `useId`, `forwardRef`  
-- `useFormState`, `useActionState`, `useReducer`, and Custom Hooks  
-- Conditional Rendering & Event Handling  
-- Array/Object mapping and dynamic rendering  
-- Styling: CSS, CSS Modules, Tailwind (basic)  
-- React Router with conditional layout rendering  
-- Navbar logic, visibility handling  
-- Form handling and validation  
-- Field validation using regex and dynamic error messages  
-- Form validation using `useActionState` for progressive input control  
-- Form logic using `useReducer` hook for unified state management  
-- Lazy loading components using `React.lazy` and `Suspense` ✅  
-- Rendering data using experimental React `use()` API ✅  
-- API Integration with loading state using `fetch`  
-- JSON Server as mock backend  
-- Loading feedback using conditional GIFs  
-- POST API handling with dynamic URL selection  
-- UI navigation between fetch and post views  
-- Delete functionality to remove users from the UI  
-- Edit button navigation to redirect to edit form  
-- Functional edit form with dynamic routing and PUT request  
-- UI enhancement for form validation component  
+- React component structure & JSX
+- Props, state, and controlled components
+- Core hooks: `useState`, `useEffect`, `useRef`, `useId`, `useTransition`
+- Advanced hooks: `useReducer`, `useActionState`, `useFormState`
+- Event handling and conditional rendering
+- API integration using `fetch`
+- Dynamic form validation (regex + error messages)
+- React Router for page and layout logic
+- Lazy loading with `React.lazy()` and `Suspense`
+- Mock backend setup with JSON Server
+- Custom Hooks and reusable logic patterns
+
+---
+
+### 🔷 React 19 Features (In Progress)
+
+> 📂 Repository: [`react19-features-practice`](https://github.com/FaiziCodeSpace/react19-features-practice)
+
+**Topics Practiced So Far:**
+- ✅ `useTransition`
+- ✅ `useOptimistic`
+
+This repo focuses solely on learning, building, and experimenting with new React 19 APIs and patterns.
 
 ---
 
@@ -63,60 +62,21 @@ Each repo listed below focuses on one or more core concepts. This tracker helps 
 - [`to-do-app-prototype`](https://github.com/FaiziCodeSpace/to-do-app-prototype)
 
 **Key Concepts Covered:**
-- Node.js setup and file structure  
-- Express.js routing (GET, POST, DELETE, PUT)  
-- RESTful API patterns  
-- EJS integration for server-side views  
-- Form submission & input handling  
-- Environment variables and `.env` setup  
-- File uploads with Multer  
-- API Testing with Postman  
-- Static file serving and modular route organization  
-
----
-
-## 📂 My Core Practice Folder
-
-> 🔗 [`react-masterFile-practice`](https://github.com/FaiziCodeSpace/react-masterFile-practice)
-
-This repo contains all day-to-day React practice. I build everything here first, then move it into dedicated, topic-based repositories after polishing.
-
-📌 Organized into folders like:
-- `file-1/` → Props, input handling, form setup  
-- `file-2/` → State management, toggle logic, event flow  
-- `file-3/` → Styling: Internal, External, CSS Modules  
-- `file-4/` → Hooks: useState, useEffect, useRef, useId, useFormState, useActionState, useReducer, useTransition  
-- `file-5/` → Array & Object rendering, fragments, derived state  
-- `file-6/` → React Router and navbar logic  
-- `file-7(API)/` → Real and Mock API Handling  
-- `contextAPI/` → Global state with context  
-- `CustomHooks/` → Reusable logic & showcases  
-- `router/` → Layout-based routing & conditional navbar  
-
-### 🔌 API Feature Highlights:
-- GET request from `https://dummyjson.com/users`  
-- Local JSON Server mock API (`http://localhost:3000/users`)  
-- Loading spinner with conditional render  
-- POST request using `fetch()` and form data  
-- URL selector to switch between two backend endpoints  
-- Navigator logic to toggle between View List and POST form  
-- Delete function to remove user from local state  
-- Edit button redirects to editing screen  
-- PUT request updates user data with dynamic ID routing  
-- Form validation using `useState` and regex  
-- Form validation using `useActionState` for progressive form logic  
-- Full form state management using `useReducer` hook  
-- Lazy component rendering using `React.lazy()` and `Suspense`  
-- Experimental API data handling using React’s `use()` hook  
+- RESTful API design using Express
+- Routing (GET, POST, PUT, DELETE)
+- Input handling with `req.body` and middleware
+- File uploads with Multer
+- Modular route structure
+- Static file serving
+- Environment config using `.env`
+- API testing using Postman
 
 ---
 
 ## 💡 Why This Tracker Exists
 
-This tracker isn't a portfolio — it's the **proof of practice**. It shows:  
-- How I learn (by building real code)  
-- What I’ve completed (with direct repo links)  
-- My discipline in mastering full-stack development  
+This isn’t a portfolio — it’s a **proof-of-practice log**.  
+It reflects my consistency, depth of learning, and how I build real things to understand theory.
 
 > ✨ *"Build small. Learn deep. Document smart."* – Faizan
 
