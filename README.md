@@ -45,6 +45,8 @@ Whether you're a client, collaborator, or recruiter, this tracker offers a quick
 **Topics Practiced So Far:**
 - ✅ `useTransition`
 - ✅ `useOptimistic`
+- ✅ `useFormStatus`
+- ✅ `useFormState`
 
 This repo focuses solely on learning, building, and experimenting with new React 19 APIs and patterns.
 
