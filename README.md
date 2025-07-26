@@ -47,6 +47,7 @@ Whether you're a client, collaborator, or recruiter, this tracker offers a quick
 - ✅ `useOptimistic`
 - ✅ `useFormStatus`
 - ✅ `useFormState`
+- ✅ `useActionState`
 
 This repo focuses solely on learning, building, and experimenting with new React 19 APIs and patterns.
 
