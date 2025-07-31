@@ -68,9 +68,11 @@ This repo focuses solely on learning, building, and experimenting with new React
 - RESTful API design using Express
 - Routing (GET, POST, PUT, DELETE)
 - Input handling with `req.body` and middleware
-- File uploads with Multer
-- Modular route structure
-- Static file serving
+- File uploads with Multer (custom filename strategy)
+- Custom middleware for logging and error handling
+- Modular MVC architecture setup
+- User input validation using `express-validator`
+- Static file serving and route separation
 - Environment config using `.env`
 - API testing using Postman
 
