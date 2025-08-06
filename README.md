@@ -78,6 +78,22 @@ This repo focuses solely on learning, building, and experimenting with new React
 
 ---
 
+### 🟢 MongoDB + Mongoose — Data Layer Practice
+
+> 📂 Repository: [`mongoose-mini-school`](https://github.com/FaiziCodeSpace/mongoose-mini-school)
+
+**Concepts Implemented:**
+- MongoDB schema design for School app (Student, Teacher, Class)
+- Mongoose models and schema validation
+- Custom validation using regex, enums, and conditionals
+- Advanced querying: filter, sort, pagination
+- MongoDB operators: `$gte`, `$lte`, `$in`, `$regex`, `$or`, etc.
+- Logical grouping of queries and chaining
+- Modular folder structure and clean code practices
+- Connecting MongoDB Atlas with Mongoose
+
+---
+
 ## 💡 Why This Tracker Exists
 
 This isn’t a portfolio — it’s a **proof-of-practice log**.  
